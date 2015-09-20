@@ -1,0 +1,12 @@
+Feature: Registration
+  As a registered user, I would like to register to system
+  
+  Background: Log into system
+    Given I am logged in with username "Username" and password "Password"
+
+  Scenario: With valid email and password
+    Given I am on the "https://www.facebook.com/" page
+    And I fill in "email" with "youremail@gmail.com"
+    And I fill in "pass" with "123456"
+    And I click on "Log In" button
+
