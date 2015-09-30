@@ -7,3 +7,4 @@ gem 'rspec-expectations', '~> 3.0.2'
 # gem 'factory_girl_rails'
 gem 'rspec-rails'
 gem 'faker'
+# gem 'allure-cucumber' #generates nice reporting https://github.com/allure-framework/allure-core/wiki

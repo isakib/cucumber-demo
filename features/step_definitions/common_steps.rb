@@ -8,7 +8,6 @@ Given /^I fill in "(.*)" with "(.*)"$/ do |selector, value|
   fill_in selector, :with => value
 end
 
-
 Given /^I click on "(.*)" link$/ do |selector|
   click_on selector
 end
