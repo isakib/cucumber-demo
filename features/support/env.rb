@@ -45,8 +45,6 @@ AllureCucumber.configure do |c|
   c.output_dir = "/output/dir"
 end
 
-
-
 # You may also want to configure DatabaseCleaner to use different strategies for certain features and scenarios.
 # See the DatabaseCleaner documentation for details. Example:
 #

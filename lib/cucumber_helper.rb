@@ -1,5 +1,6 @@
 require 'capybara/cucumber'
 require 'rspec/expectations'
+# require 'allure-cucumber'
 
 Capybara.default_driver = :selenium
 
