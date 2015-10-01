@@ -7,7 +7,7 @@
 # require 'cucumber/rails'
 # require 'capybara/cucumber'
 # require 'rspec/expectations'
-require 'allure-cucumber'
+# require 'allure-cucumber'
 
 # Capybara.ignore_hidden_elements = true
 
@@ -41,9 +41,9 @@ require 'allure-cucumber'
 #   raise "You need to add database_cleaner to your Gemfile (in the :test group) if you wish to use it."
 # end
 
-AllureCucumber.configure do |c|
-  c.output_dir = "/output/dir"
-end
+# AllureCucumber.configure do |c|
+#   c.output_dir = "/output/dir"
+# end
 
 # You may also want to configure DatabaseCleaner to use different strategies for certain features and scenarios.
 # See the DatabaseCleaner documentation for details. Example:
