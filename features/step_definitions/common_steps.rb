@@ -40,9 +40,9 @@ When /^I upload a "(.+)" file with "(.+)" and located at "(.+)"$/ do |file_name,
   attach_file(name_selector, "#{path}/#{file_name}")
 end
 
-When /^I click on hidden link$/ do
-  find(".remove_fields", visible: false).click
-end
+# When /^I click on hidden link$/ do
+#   find(".remove_fields", visible: false).click
+# end
 
 When /^I confirm popup$/ do
   page.driver.browser.switch_to.alert.accept
