@@ -1,6 +1,7 @@
 Setup
 -----
-Install ruby.
+Install ruby. 
+
 And then install gems by the following command.
 ```bash
 bundle install
@@ -36,7 +37,14 @@ Configuration
 You can configure the capybara options in cucumber_helper.rb.
 Change `Capybara.app_host` to run the same test in different host.
 
+Others
+-------------
+To generate report by using cucumber
+```cucumber features --format html --out reports```
+
 References
 ----------
 * [Cucumber](https://github.com/cucumber/cucumber/wiki)
 * [Capybara](https://github.com/jnicklas/capybara)
+* [Capybara-Webkit] (https://github.com/thoughtbot/capybara-webkit)
+* [Ruby Installation](http://gorails.com/setup/osx/10.10-yosemite)
