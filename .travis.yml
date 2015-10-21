@@ -4,14 +4,14 @@ cache: bundler
 rvm:
   - 1.26.11
 
-ruby:
-	- 2.2.3
+# ruby:
+# 	- 2.2.3
 
-rails:
-	- 4.2.4
+# rails:
+# 	- 4.2.4
 
 before_script: 'bundle install'
-script: 'cucumber'
+script: 'bundle exec cucumber'
 
 branches:
   only:
