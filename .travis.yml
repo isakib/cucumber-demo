@@ -1,10 +1,16 @@
 language: ruby
 # cache: bundler
 
-# rvm:
-#   - 1.26.11
+rvm:
+  - 1.26.11
 
-before_script: 'bundle'
+ruby:
+	- 2.2.3
+
+rails:
+	- 4.2.4
+
+before_script: 'bundle install'
 script: 'cucumber'
 
 branches:
