@@ -1,8 +1,8 @@
 language: ruby
 cache: bundler
 
-rvm:
-  - 1.26.11
+# rvm:
+#   - 1.26.11
 
 # ruby:
 # 	- 2.2.3
