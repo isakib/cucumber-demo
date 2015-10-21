@@ -1,8 +1,11 @@
 language: ruby
-cache: bundler
+# cache: bundler
 
 # rvm:
 #   - 1.9.3
+
+ruby:
+	-2.0.0p481
 
 before_script: 'bundle install'
 script: 'cucumber'
