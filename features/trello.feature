@@ -2,6 +2,9 @@ Feature: Registration at Trello
   As a new user, I would like to make a registration at trello.com
   As a logged in user, I would like to sign out from the trello.com system.
 
+Background: Maxmimize
+  Given I want to mazimize the windows
+
   Scenario: As a new user, I would like to make a registration at trello.com
     Given I am on the "/signup" page
     When I fill in "name" with "Hello Hi"
