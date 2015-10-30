@@ -1,7 +1,7 @@
 require 'capybara/cucumber'
 require 'rspec/expectations'
 
-# Capybara.default_driver = :selenium
+Capybara.default_driver = :selenium
 
 Capybara.app_host = "https://trello.com"
 Capybara.run_server = true

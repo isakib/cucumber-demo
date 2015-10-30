@@ -2,8 +2,8 @@ Feature: Registration at Trello
   As a new user, I would like to make a registration at trello.com
   As a logged in user, I would like to sign out from the trello.com system.
 
-Background: Maxmimize
-  Given I want to mazimize the windows
+Background: Just few things I would like to have.
+  Given I want to maximize the windows of browser
 
   Scenario: As a new user, I would like to make a registration at trello.com
     Given I am on the "/signup" page

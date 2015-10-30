@@ -24,6 +24,10 @@ When /^I wait for (\d+) seconds?$/ do |secs|
   sleep secs.to_i
 end
 
+Given /^I want to maximize the windows of browser$/ do
+  page.driver.browser.manage.window.maximize
+end
+
 Then /^I select checkbox$/ do
   check(find("input[type='checkbox']")[:id])
 end
