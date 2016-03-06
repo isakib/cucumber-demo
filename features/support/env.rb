@@ -4,6 +4,7 @@ require 'capybara/poltergeist'
 require 'selenium-webdriver'
 
 
+# off # Capybara.default_driver = :selenium
 #pass environment variables to control which browser is used for testing. Default is HEADLESS/POLTERGEIST
 #usage: firefox=true bundle exec cucumber features/test.feature
 
